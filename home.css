@@ -65,7 +65,7 @@ a { color: inherit; }
   margin: 16px auto 0;
   background-color: #071726;
   background-image:
-    linear-gradient(118deg, rgba(6, 23, 38, .88) 0%, rgba(5, 43, 72, .56) 48%, rgba(8, 124, 174, .30) 100%),
+    linear-gradient(97deg, rgba(6, 17, 30, .74) 0%, rgba(6, 17, 30, .50) 30%, rgba(6, 17, 30, .20) 58%, rgba(8, 124, 174, .08) 100%),
     url("./hero-bg.jpg");
   background-size: cover;
   background-position: center 32%;
@@ -123,8 +123,9 @@ a { color: inherit; }
   letter-spacing: -.065em;
   text-wrap: balance;
 }
-.hero h1 em { color: var(--blue-bright); font-style: normal; text-shadow: 0 4px 0 rgba(0,0,0,.28); }
-.hero-intro { max-width: 620px; margin: 26px 0 0; color: #c8d9e4; font-size: 16px; line-height: 1.85; }
+.hero h1 em { color: var(--blue-bright); font-style: normal; text-shadow: 0 4px 0 rgba(0,0,0,.28), 0 2px 26px rgba(3, 10, 17, .6); }
+.hero h1 { text-shadow: 0 2px 26px rgba(3, 10, 17, .6); }
+.hero-intro { max-width: 620px; margin: 26px 0 0; color: #d3e2ec; font-size: 16px; line-height: 1.85; text-shadow: 0 1px 14px rgba(3, 10, 17, .55); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 .button {
   min-height: 50px;
@@ -144,7 +145,7 @@ a { color: inherit; }
 .button svg { width: 19px; height: 19px; fill: currentColor; }
 .button-primary { color: #fff; background: var(--blue); }
 .button-light { color: var(--ink); background: #fff; }
-.hero-status { display: flex; align-items: center; gap: 9px; margin: 25px 0 0; color: #a8c1d0; font-size: 12px; }
+.hero-status { display: flex; align-items: center; gap: 9px; margin: 25px 0 0; color: #c3d5e0; font-size: 12px; text-shadow: 0 1px 10px rgba(3, 10, 17, .5); }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #55e99a; box-shadow: 0 0 0 5px rgba(85,233,154,.11); }
 
 .hero-art { position: relative; min-height: 410px; isolation: isolate; }
