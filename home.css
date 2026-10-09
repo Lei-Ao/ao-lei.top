@@ -61,10 +61,17 @@ a { color: inherit; }
   position: relative;
   overflow: hidden;
   color: #fff;
-  background:
-    radial-gradient(circle at 76% 16%, rgba(49, 188, 240, .5), transparent 30%),
-    linear-gradient(118deg, #071726 0%, #063655 48%, #087cae 100%);
-  border-bottom: 2px solid var(--ink);
+  width: min(1560px, calc(100% - 44px));
+  margin: 16px auto 0;
+  background-color: #071726;
+  background-image:
+    linear-gradient(118deg, rgba(6, 23, 38, .88) 0%, rgba(5, 43, 72, .56) 48%, rgba(8, 124, 174, .30) 100%),
+    url("./hero-bg.jpg");
+  background-size: cover;
+  background-position: center 32%;
+  background-repeat: no-repeat;
+  border: 2px solid var(--ink);
+  box-shadow: 14px 14px 0 rgba(11, 17, 26, .18);
 }
 .hero::before {
   content: "";
@@ -277,6 +284,7 @@ a { color: inherit; }
   .nav-links a { padding: 8px; font-size: 12px; }
   .nav-links a:nth-child(3), .nav-links a:nth-child(4) { display: none; }
   .nav-links .nav-github { margin-left: 2px; }
+  .hero { width: min(var(--max), calc(100% - 28px)); margin-top: 12px; }
   .hero-shell, .section-shell, .about-shell, .site-footer { width: min(100% - 28px, var(--max)); }
   .hero-shell { gap: 28px; padding: 54px 0 56px; }
   .hero h1 { font-size: clamp(41px, 13vw, 60px); }
