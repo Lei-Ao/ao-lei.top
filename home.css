@@ -95,13 +95,13 @@ a { color: inherit; }
   position: relative;
   z-index: 2;
   width: min(var(--max), calc(100% - 40px));
-  min-height: 590px;
+  min-height: 540px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.05fr .95fr;
   align-items: center;
   gap: 50px;
-  padding: 82px 0 88px;
+  padding: 48px 0 44px;
 }
 .hero-copy { max-width: 670px; }
 .eyebrow, .section-kicker {
@@ -122,8 +122,8 @@ a { color: inherit; }
 }
 .hero h1 em { color: var(--blue-bright); font-style: normal; text-shadow: 0 4px 0 rgba(0,0,0,.28), 0 2px 26px rgba(3, 10, 17, .6); }
 .hero h1 { text-shadow: 0 2px 26px rgba(3, 10, 17, .6); }
-.hero-intro { max-width: 620px; margin: 26px 0 0; color: #d3e2ec; font-size: 16px; line-height: 1.85; text-shadow: 0 1px 14px rgba(3, 10, 17, .55); }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+.hero-intro { max-width: 620px; margin: 20px 0 0; color: #d3e2ec; font-size: 16px; line-height: 1.85; text-shadow: 0 1px 14px rgba(3, 10, 17, .55); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
 .button {
   min-height: 50px;
   display: inline-flex;
@@ -142,10 +142,10 @@ a { color: inherit; }
 .button svg { width: 19px; height: 19px; fill: currentColor; }
 .button-primary { color: #fff; background: var(--blue); }
 .button-light { color: var(--ink); background: #fff; }
-.hero-status { display: flex; align-items: center; gap: 9px; margin: 25px 0 0; color: #c3d5e0; font-size: 12px; text-shadow: 0 1px 10px rgba(3, 10, 17, .5); }
+.hero-status { display: flex; align-items: center; gap: 9px; margin: 16px 0 0; color: #c3d5e0; font-size: 12px; text-shadow: 0 1px 10px rgba(3, 10, 17, .5); }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #55e99a; box-shadow: 0 0 0 5px rgba(85,233,154,.11); }
 
-.hero-art { position: relative; min-height: 410px; isolation: isolate; }
+.hero-art { position: relative; min-height: 400px; isolation: isolate; }
 .hero-art::before {
   content: "";
   position: absolute;
@@ -263,9 +263,9 @@ a { color: inherit; }
 :focus-visible { outline: 3px solid var(--blue-bright); outline-offset: 3px; }
 
 @media (max-width: 900px) {
-  .hero-shell { grid-template-columns: 1fr; min-height: auto; padding-top: 68px; }
+  .hero-shell { grid-template-columns: 1fr; min-height: auto; padding-top: 56px; }
   .hero-copy { max-width: 760px; }
-  .hero-art { min-height: 470px; }
+  .hero-art { min-height: 440px; }
   .art-photo { top: 36px; right: auto; left: 50%; transform: translateX(-50%) rotate(-2.4deg); }
   .project-main, .about-grid { grid-template-columns: 1fr; }
   .project-copy { border-right: 0; border-bottom: 2px solid var(--line); }
@@ -283,11 +283,11 @@ a { color: inherit; }
   .nav-links a:nth-child(3), .nav-links a:nth-child(4) { display: none; }
   .nav-links .nav-github { margin-left: 2px; }
   .hero-shell, .section-shell, .about-shell, .site-footer { width: min(100% - 28px, var(--max)); }
-  .hero-shell { gap: 28px; padding: 54px 0 56px; }
+  .hero-shell { gap: 28px; padding: 44px 0 46px; }
   .hero h1 { font-size: clamp(41px, 13vw, 60px); }
   .hero-intro { font-size: 14px; }
   .button { width: 100%; }
-  .hero-art { min-height: 380px; }
+  .hero-art { min-height: 360px; }
   .hero-art::before { inset: 20px 12px 10px 38px; }
   .art-photo { top: 30px; width: min(250px, 84%); }
   .art-domain { bottom: 42px; }
