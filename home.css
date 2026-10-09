@@ -115,13 +115,14 @@ a { color: inherit; }
 .hero h1 {
   margin: 0;
   max-width: 760px;
-  font-size: clamp(46px, 6vw, 78px);
-  line-height: 1.02;
-  letter-spacing: -.065em;
+  font-size: clamp(36px, 4.6vw, 54px);
+  line-height: 1.08;
+  letter-spacing: -.04em;
   text-wrap: balance;
 }
 .hero h1 em { color: var(--blue-bright); font-style: normal; text-shadow: 0 4px 0 rgba(0,0,0,.28), 0 2px 26px rgba(3, 10, 17, .6); }
 .hero h1 { text-shadow: 0 2px 26px rgba(3, 10, 17, .6); }
+.hero-copy .eyebrow { margin: 24px 0 0; font-size: 13px; }
 .hero-intro { max-width: 620px; margin: 20px 0 0; color: #d3e2ec; font-size: 16px; line-height: 1.85; text-shadow: 0 1px 14px rgba(3, 10, 17, .55); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
 .button {
@@ -284,7 +285,7 @@ a { color: inherit; }
   .nav-links .nav-github { margin-left: 2px; }
   .hero-shell, .section-shell, .about-shell, .site-footer { width: min(100% - 28px, var(--max)); }
   .hero-shell { gap: 28px; padding: 44px 0 46px; }
-  .hero h1 { font-size: clamp(41px, 13vw, 60px); }
+  .hero h1 { font-size: clamp(28px, 9vw, 40px); }
   .hero-intro { font-size: 14px; }
   .button { width: 100%; }
   .hero-art { min-height: 360px; }
